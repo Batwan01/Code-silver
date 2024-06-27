@@ -1,0 +1,68 @@
+name: code_sliver
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.0
+  flutter_dotenv: ^5.1.0
+  device_info_plus: ^9.1.2
+  shared_preferences: ^2.2.2
+  flutter_localization: ^0.2.0
+  flutter_riverpod: ^2.4.10
+  table_calendar: ^3.0.9
+  go_router: ^10.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^2.0.9
+  fluttertoast: ^8.2.4
+  calendar_date_picker2: ^0.5.3
+  url_launcher: ^6.2.4
+  dropdown_button2: ^2.3.9
+  intl: ^0.18.1
+  kakao_flutter_sdk: ^1.8.0
+  google_sign_in: ^6.1.6
+  firebase_core: ^2.15.0 # FireBase : BSD-3-Clause
+  firebase_database: ^10.2.4  # FireBase : BSD-3-Clause
+  firebase_messaging: ^14.6.7  # FireBase : BSD-3-Clause
+  firebase_auth: ^4.7.2  # FireBase : BSD-3-Clause
+  firebase_in_app_messaging: ^0.7.3+5 # FireBase : BSD-3-Clause
+  crypto: ^3.0.3
+  sign_in_with_apple: ^5.0.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  flutter_facebook_auth: ^6.1.1
+  image_picker: ^1.0.7
+
+dependency_overrides:
+  intl: 0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/env/
+    - assets/imgs/
+
+  fonts:
+    - family: GmarketSans
+      fonts:
+        - asset: assets/fonts/GmarketSansBold.otf
+          weight: 700
+        - asset: assets/fonts/GmarketSansMedium.otf
+          weight: 500
+        - asset: assets/fonts/GmarketSansLight.otf
+          weight: 400

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755745348541",
+    "project_id": "code-sliver",
+    "storage_bucket": "code-sliver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755745348541:android:d262d8beb2524d9a98d0d4",
+        "android_client_info": {
+          "package_name": "com.example.code_sliver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXnZFzYeQG5Me-nJ1n0mFZaiG3NgOqZGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
